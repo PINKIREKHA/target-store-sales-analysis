@@ -13,54 +13,102 @@ Dataset: https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCn
   
 The column description for these csv files is given below. The customers.csv contain following features:
 Features
+
 Description
+
 customer_id
+
 ID of the consumer who made the purchase
+
 customer_unique_id
+
 Unique ID of the consumer
+
 customer_zip_code_prefix
+
 Zip Code of consumer’s location
+
 customer_city
+
 Name of the City from where order is made
+
 customer_state
+
 State Code from where order is made (Eg. são paulo - SP) The sellers.csv contains following features:
+
 Features
 Description
+
 seller_id
+
 Unique ID of the seller registered
+
 seller_zip_code_prefix
+
 Zip Code of the seller’s location
+
 seller_city
+
 Name of the City of the seller
+
 seller_state
+
 State Code (Eg. são paulo - SP) The order_items.csv contain following features:
+
 Features
+
 Description
+
 order_id
+
 A Unique ID of order made by the consumers
+
 order_item_id
+
 A Unique ID given to each item ordered in the order
+
 product_id
+
 A Unique ID given to each product available on the site
+
 seller_id
+
 Unique ID of the seller registered in Target
+
 shipping_limit_date
+
 The date before which the ordered product must be shipped
+
 price
+
 Actual price of the products ordered
+
 freight_value
+
 Price rate at which a product is delivered from one point to another The geolocations.csv contain following features:
+
 Features
+
 Description
+
 geolocation_zip_code_prefix
+
 First 5 digits of Zip Code
+
 geolocation_lat
+
 Latitude
+
 geolocation_lng
+
 Longitude
+
 geolocation_city
+
 City
+
 geolocation_state
+
 State The payments.csv contain following features:
 Features
 Description
