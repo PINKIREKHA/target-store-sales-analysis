@@ -9,7 +9,9 @@ Dataset: https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCn
 5. payments.csv
 6. reviews.csv
 7. orders.csv
-8. products.csv The column description for these csv files is given below. The customers.csv contain following features:
+8. products.csv
+  
+The column description for these csv files is given below. The customers.csv contain following features:
 Features
 Description
 customer_id
